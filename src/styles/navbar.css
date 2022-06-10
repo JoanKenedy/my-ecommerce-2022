@@ -1,0 +1,143 @@
+.container_menu{
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    margin-bottom: 110px;
+    position: relative;
+}
+.nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ background-color: #fff;
+ z-index: 999;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border: 1.5px solid #c7c7c7
+
+
+}
+
+.tilte_uno{
+    width: 55%;
+}
+.tilte_uno span{
+    color: #f85555;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+
+}
+.icons{
+    width: 15%;
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding: 20px;
+}
+.icons i{
+  font-size: 20px;
+  color: #c7c7c7;
+}
+.login{
+    position: absolute;
+    background-color:#fff;
+    right: 25%;
+    top: 95%;
+    z-index: 999;
+    width: 300px;
+    padding: 30px;
+    box-shadow: 7px 7px 7px #515151;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: top;
+    z-index: 999;
+   
+}
+.login.open{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.user_image{
+    text-align: center;
+}
+.login i {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background-color: #515151;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    
+}
+.login_form {
+    width: 100%;
+
+}
+.credential{
+    background-color: #d8f5fd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.credential p{
+    text-align: left;
+}
+
+.login_form .credential i{
+    width:30px;
+    height: 30px;
+    object-fit: contain;
+     
+    border-radius: 50%;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+
+    
+}
+.login_form label{
+    font-size: 16px;
+}
+.login_form input{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 5px;
+   
+}
+
+.btn_login {
+    background-color: #f85555;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 15px;
+    width: 100%;
+}
+.error{
+
+  color: red;
+  text-align: center;
+  margin: 15px 0px;
+}
+.logout{
+    background-color: #f85555;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px 0px;
+}
